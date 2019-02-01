@@ -1,6 +1,6 @@
 # Topic Modelling using Latent Drichlet Allocation (LDA)
 
-<p align="center"><img src="images/LDA.jpg" height = "256"></p>
+<p align="center"><img src="images/LDA.jpg"></p>
 
 This is my implementation of Topic Modelling of News Headlines with LDA, which:
 
