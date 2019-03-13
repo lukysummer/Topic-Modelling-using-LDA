@@ -1,6 +1,6 @@
 # Topic Modelling using Latent Drichlet Allocation (LDA)
 
-<p align="center"><img src="images/news.png", width = 50%></p>
+<p align="center"><img src="images/news.png", width = 30%></p>
 
 This is my implementation of Topic Modelling of News Headlines with LDA, which:
 
@@ -9,6 +9,24 @@ This is my implementation of Topic Modelling of News Headlines with LDA, which:
 * predicts underlying topics of a group of texts, then
 * outputs the probabilities that a body of text belongs to each of the predicted topics
 
+
+## Results:
+The model predicted 10 different underlying topics among 300,000 headlines, with 3 keywords:
+
+1. (government, fund, service)     : could be a government-related topic
+2. (kill, iraq, attack)            : could be a terrorist attack-related topic
+3. (court, accuse, drug)           : could be a drug-related topic
+4. (water, farmer, safety)         : could be an agriculture-related topic
+5. (worker, drought, price)        : could be a natural disaster-related topic
+6. (power, plan, nuclear)          : could be a nuclear-related topic
+7. (world, play, final)            : could be a sports-related topic
+8. (council, minister, elect)      : could be an election-related topic
+9. (coast, blaze, firefighter)     : could be a fire-related topic
+10. (police, crash, investigate)   : could be an accident-related topic
+
+
+
+## Model
 
 This model includes two Drichlet distributions:
 
@@ -21,5 +39,4 @@ This model includes two Drichlet distributions:
 
 ## Sources
 
-I referenced Udacity's Natural Language Processing Nanodegree's workspace.
-
+I referenced Udacity's Natural Language Processing Nanodegree's workspace.([Course Page](https://www.udacity.com/course/natural-language-processing-nanodegree--nd892))
